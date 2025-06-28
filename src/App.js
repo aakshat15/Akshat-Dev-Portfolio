@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { HeroGeometric } from "./Component/HeroGeometric";
+import "./App.css";
+import { DisplayCardsDemo } from "./Component/ExpertiseCard/DisplayCardsDemo";
+import Projects from "./Component/Projects/Projects";
+import DemoVariant1 from "./Component/Contact/LotiContactDemo";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return <>
+    <div>
+      <HeroGeometric badge="Developer" title1="Akshat.__" title2="___. Ydv" />
+      <DisplayCardsDemo />
+      < Projects />
+      <DemoVariant1 />
+
     </div>
-  );
+  </>
 }
 
 export default App;
