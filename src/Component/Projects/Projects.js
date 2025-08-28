@@ -7,22 +7,40 @@ const slides = [
   {
     src: "/ProjectLogo/upEvent.png",
     title: "UpEvent",
-    description: "myUpEvent is a smart event management platform streamlining event creation, registration, and engagement for students and organizers alike",
-    link: "/projects/1", // optional for routing
+    description:
+      "myUpEvent is a smart event management platform streamlining event creation, registration, and engagement for students and organizers alike.",
+    link: "/projects/1", // or replace with live link
   },
   {
     src: "/ProjectLogo/degitalMenu.png",
-    title: "Degital Menu",
-    description: "A digital menu is an interactive, electronic menu display that allows users to browse food or product options, view descriptions, and make selections through digital devices like tablets or smartphones.",
+    title: "Digital Menu",
+    description:
+      "A digital menu platform allowing users to browse food/product options, view descriptions, and make selections through devices like tablets or smartphones.",
     link: "https://meennnuuuu.netlify.app/",
   },
   {
-    src: "/project1.jpg",
-    title: "Project 3",
-    description: "Advanced features demoed here.",
-    link: "/projects/3",
+    src: "/ProjectLogo/pitchsterLogo.png",
+    title: "Pitchster - AI-Powered Sales Pitch Practice App",
+    description:
+      "A Progressive Web App for sales professionals to practice client pitches using AI-powered simulations, real-time feedback, and voice-to-text processing.",
+    link: "https://pitchster.ai", // replace with actual deployed link
   },
-]
+  {
+    src: "/ProjectLogo/coverkraftLogo.png",
+    title: "The CoverKraft - Insurance Management System",
+    description:
+      "An innovative web platform for managing insurance policies. Includes features like scanning, saving, premium calculation, renewal reminders, and admin portal.",
+    link: "https://theCoverkraft.com", // replace with actual deployed link
+  },
+  {
+    src: "/ProjectLogo/bftLogo.png",
+    title: "BytesFarms Corporate Website",
+    description:
+      "A responsive corporate website with smooth Framer Motion animations, SEO optimization, and integrated EmailJS for seamless contact forms.",
+    link: "https://bytesfarms.com", // replace with deployed Hostinger link
+  },
+];
+
 
 export default function Projects() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
